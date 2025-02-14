@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca de Mí</title>
+    <link rel="stylesheet" href="estpa.css">
+</head>
+<body>
+    <h1>Acerca de Mí</h1>
+    <div class="grid">
+        <div class="box" onclick="alert('Me encantan los perros')">Mi animal favorito: Perro</div>
+        <div class="box" onmouseover="this.style.backgroundColor='#ffcccb'" onmouseout="this.style.backgroundColor='white'">Comida favorita: Hamburguesa</div>
+        <div class="box" ondblclick="this.innerText='Mi película favorita es Harry Potter'">Película o serie favorita: Harry Potter</div>
+        <div class="box" onmouseenter="this.style.fontSize='22px'" onmouseleave="this.style.fontSize='18px'">Canción favorita: Que Onda</div>
+        <div class="box" oncontextmenu="event.preventDefault(); this.innerText='Messi es el mejor futbolista de la historia'">Persona a quién admiro: Leo Messi</div>
+        <div class="box" onmousedown="this.style.color='red'" onmouseup="this.style.color='black'">Un país que me gustaría visitar: España</div>
+    </div>
+</body>
+</html>
